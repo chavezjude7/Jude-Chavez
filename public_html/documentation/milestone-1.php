@@ -7,6 +7,7 @@
 	</head>
 	<h1>Personal Website Milestone-1</h1>
 	<h2>Purpose</h2>
+	<body>
 	<p>The purpose of my PWP is to aid me in finding clients and possible employers who can utilize my services.</p>
 	</body>
 	<h2>Audience</h2>
