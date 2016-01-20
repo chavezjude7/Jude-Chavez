@@ -44,3 +44,4 @@
 		and deals he will be offering from his business. Bill will be using basic computing power a tablet computer and<br>
 		mobile phone.
 	</body>
+</html>
