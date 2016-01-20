@@ -7,19 +7,17 @@
 	</head>
 	<h1>Personal Website Milestone-1</h1>
 	<h2>Purpose</h2>
-	<p>The purpose of my PWP is to aid me in finding clients and possible employers who can utilize my services.
+	<p>The purpose of my PWP is to aid me in finding clients and possible employers who can utilize my services.</p>
 	</body>
 	<h2>Audience</h2>
 	<body>
-		The Audience of my PWP will be potential clients and employers and will also be seen by my peers.
+		<p>The Audience of my PWP will be potential clients and employers and will also be seen by my peers.</p>
 	</body>
 	<h2>Goal</h2>
 	<body>
-		The goal of my PWP is to show potential clients and employers what services I will be able to provide.
+		<p>The goal of my PWP is to show potential clients and employers what services I will be able to provide.</P>
 	</body>
-	<h2>
-		Persona
-	</h2>
+	<h2>Persona</h2>
 	<body>
 		<p>Name: Bill<br>
 			<br>Bill is a 25 year old small business owner who wishes to expand his customer base and wishes to provide<br>
@@ -35,12 +33,13 @@
 			of doing it<br>
 			<br>Additional Information<br>
 			Bill has a basic understanding of computers and how to use them. Bill is an apple user and has a Mac, Ipad, and<br>
-			Iphone that are all synced to apples cloud storage service "icloud".<br></P>
+			Iphone that are all synced to apples cloud storage service "icloud".<br>
+		</P>
 	</body>
 	<h2>Use Case</h2>
 	<body>
-		Bill will update and repond to customers and will make sure they have proper information about what promotions and<br>
+		<p>Bill will update and repond to customers and will make sure they have proper information about what promotions and<br>
 		and deals he will be offering from his business. Bill will be using basic computing power a tablet computer and<br>
-		mobile phone.
+		mobile phone.</p>
 	</body>
 </html>
