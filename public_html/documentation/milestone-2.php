@@ -14,5 +14,9 @@
 		</ul>
 		This page will allow the end user to quickly navigate and find information about me and about the servies I provide along with contact information so they can use my services.</p>
 	</body>
-
+<h2>Content Strategy</h2>
+	<body>
+		<p>The content strategy of this site is to provide users with a comprehensive showcase of the various services I can provide. The first page will show the web services I provide such as website professional design. The second page will provide the user with information on what type of musical services I provide such as DJ/MC and lessons. The third page will show my contact information so that a user may find the information they need to contact me.</p>
+	</body>
+	<img class="sitemap" src="Jude-Chavez/sitemap.svg" alt="not found" >
 </html>
