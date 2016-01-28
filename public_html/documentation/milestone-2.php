@@ -13,6 +13,7 @@
 			<li>Page 3 - About Jude/contact info: List of my contact info like email and professional social media presences.</li>
 		</ul>
 		<img src="images/wireframes.svg" alt="not found" >
+
 		This page will allow the end user to quickly navigate and find information about me and about the servies I provide along with contact information so they can use my services.</p>
 	</body>
 <h2>Content Strategy</h2>
