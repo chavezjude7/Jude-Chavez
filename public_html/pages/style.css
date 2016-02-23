@@ -1,0 +1,45 @@
+/* Styles go here */
+
+#content {
+	background-color: lightblue;
+	margin: auto;
+	position: relative;
+	text-align: center;
+}
+
+#header {
+	background-color: orange;
+	width: 100%;
+	margin: auto;
+	position: top;
+	height: auto;
+	bottom: 20px;
+	padding: 10px;
+}
+
+#content2 {
+	background-color: orange;
+	width: 90%;
+	margin: auto;
+	position: relative;
+	top: 20px;
+	padding: 20px;
+	border-radius: 25px;
+
+}
+
+#footer {
+	position: bottom;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+	top: 40px;
+	margin: auto;
+
+}
+
+.row {
+	background-color: orange;
+}
+
