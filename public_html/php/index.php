@@ -41,10 +41,10 @@
 			</nav>
 
 			<div id="content">
+				<img id="photo" src="images/judespeedo.jpg" alt="a nice picture of me" >
 				<div id="content1">
 					<p>Albuquerque based web developer who is here for you!</p>
 				</div>
-				<img id="photo" src="images/judespeedo.jpg" alt="a nice picture of me" >
 				<div id="content2">
 					Hello! My name is jude I am a local web developer located in albuquerque New Mexico who is here to assist you in your web design needs!
 

@@ -23,7 +23,7 @@ body {
 }
 #content {
 	padding-bottom:100px; /* Height of the footer element */
-	background-color: lightcyan;
+	background: linear-gradient(lightcyan, orange);
 	padding-top: 40px;
 }
 #footer {
@@ -81,12 +81,13 @@ body {
 	margin-right: auto;
 	display: block;
 	border-radius: 40px;
+	padding: 20px;
 
 }
 
 #footer-content {
 	font-size: large;
-	text-shadow: 2px 2px white;
+	text-shadow: 1px 1px white;
 }
 
 .navbar-navbar-default {
