@@ -42,3 +42,22 @@ Your Milestone 2&alpha; passes at [Tier II](https://bootcamp-coders.cnm.edu/proj
 - &lt;meta charset="utf-8"/&gt; is missing.
 - There should only be one &lt;body&gt; tag, and all of your page content should go inside that. There should never be any page content that is outside of the &lt;body&gt; tag.
 - The alt text on your images should not be "not found", but something relevant to the image itself. Like "sitemap", "interaction flow", etc. 
+
+### Milestone 2b Feedback
+Nice work. Take a look at the notes we went over below, and check in with me or Skyler this week. After some cleanup, you should be ready to deploy to ASO next week.
+
+Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+#### Edits &amp; Suggestions
+- Fix directory structure. Create an index.php file inside /public_html - this will be your home page.
+- Add Flexbox Sticky Footer. See: https://bootcamp-coders.cnm.edu/~rlewis37/bootstrap-sample/
+- Add Font Awesome for social icons
+- Read up on the CSS background-image property to tile bg-images on sections of your layout.
+- add contact form
+
+Set up ASO Host:
+- Go over https://bootcamp-coders.cnm.edu/class-materials/php/email/, add composer.json and mailer.php
+- enable shell access - chat live support and request them to enable this
+- Add your public SSH key (CPanel, SSH Access)
+- Add an email account, and add an email forwarder if you like :)
+- Create a new deployment in PhpStorm that uploads to ASO, and upload your site there.
