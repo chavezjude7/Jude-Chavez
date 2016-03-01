@@ -17,7 +17,7 @@ body {
 	position:relative;
 }
 #header {
-	background:orange;
+	background: linear-gradient(orange, darkorange);
 	padding:10px;
 	height: 150px;
 }
@@ -55,33 +55,34 @@ body {
 }
 
 #content1 {
-	text-align: center;
+	text-align: left;
 	font-family: Arial Unicode MS;
 	font-size: large;
 }
 
 #content2 {
-	text-align: center;
+	text-align: left;
 	font-family: Arial Unicode MS;
 	font-size: large;
 }
 
 #content3 {
-	text-align: center;
+	text-align: left;
 }
 
 .list {
-	text-align: center;
+	text-align: left;
 }
 
 #photo {
-	height: 400px;
-	width: 400px;
+	height: 300px;
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	border-radius: 40px;
 	padding: 20px;
+	float: right;
 
 }
 
@@ -95,8 +96,13 @@ body {
 	background-color: aliceblue;
 }
 
+.jumbotron {
+	font-family: 'Press Start 2p', cursive;
+	color: lightblue;
+	text-shadow: 2px 2px aliceblue;
+	background: linear-gradient(orange, darkorange);
 
-
+}
 
 
 

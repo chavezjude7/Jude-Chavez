@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<title>Jude-Chavez</title>
 
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<style type="text/css">
 			#wrapper { height:100%; }
 		</style>
@@ -16,8 +16,7 @@
 	<body>
 
 		<div id="wrapper">
-
-			<div id="header">
+			<!-- <div id="header">
 				<div id="head1">
 					<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 					<h1>Jude Chavez</h1>
@@ -25,20 +24,15 @@
 				</div>
 			</div><!-- #header -->
 
-			<nav class="navbar-navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="#">Links!</a>
-					</div>
-					<ul class="nav navbar-nav">
-						<li><a href="https://twitter.com/JudeicusMaximus">Twitter</a></li>
-						<li><a href="https://www.facebook.com/judeicusMaximus">Facebook</a></li>
-						<li><a href="https://www.linkedin.com/in/jude-chavez-87a519114">Linked In</a></li>
-						<li><a href="https://soundcloud.com/judeicusmaximus">Soundcloud</a></li>
-						<li><a href="https://www.youtube.com/channel/UCBuoSq2gvaHA5IYaL2FVZMA">YouTube</a></li>
-					</ul>
-				</div>
-			</nav>
+
+
+			<div class="jumbotron">
+				<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+				<h1>Jude Chavez</h1>
+				<p>AKA Judeicus Maximus</p>
+			</div>
+
+
 
 			<div id="content">
 				<img id="photo" src="images/judespeedo.jpg" alt="a nice picture of me" >
@@ -60,6 +54,23 @@
 					</ul>
 				</div>
 			</div><!-- #content -->
+
+			<nav class="navbar-navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">Check Me Out!</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li><a href="https://twitter.com/JudeicusMaximus">Twitter</a></li>
+						<li><a href="https://www.facebook.com/judeicusMaximus">Facebook</a></li>
+						<li><a href="https://www.linkedin.com/in/jude-chavez-87a519114">Linked In</a></li>
+						<li><a href="https://soundcloud.com/judeicusmaximus">Soundcloud</a></li>
+						<li><a href="https://www.youtube.com/channel/UCBuoSq2gvaHA5IYaL2FVZMA">YouTube</a></li>
+					</ul>
+				</div>
+			</nav>
+
+
 			<div id="footer">
 				<div id="footer-content">
 					<p>
