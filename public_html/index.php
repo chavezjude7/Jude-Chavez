@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html  lang="en">
+
+
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -10,52 +12,33 @@
 			#wrapper { height:100%; }
 		</style>
 		<![endif]-->
-
 	</head>
 
-	<body>
 
-		<div id="wrapper">
-			<!-- <div id="header">
-				<div id="head1">
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<div class="jumbotron">
+				<div class="container-fluid">
 					<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 					<h1>Jude Chavez</h1>
-					<h3>Judeicus Maximus</h3>
+					<p>Get ready to dig deep!</p>
 				</div>
-			</div><!-- #header -->
-
-
-
-			<div class="jumbotron">
-				<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-				<h1>Jude Chavez</h1>
-				<p>AKA Judeicus Maximus</p>
 			</div>
+			<div id="grass">
 
+			</div>
+			<div class="dirt">
+				<h2>About Me</h2>
+				<h3>I'm a webdeveloping nurse</h3>
+				<p id="maincontent">
+					<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+					You have to dig deep to find the diamonds. I turn complex problems into beautiful solutions. I mine code so you don't have to.
+				</p>
+			</div>
+		</div><!--/.sfooter-content-->
 
-
-			<div id="content">
-				<img id="photo" src="images/judespeedo.jpg" alt="a nice picture of me" >
-				<div id="content1">
-					<p>Albuquerque based web developer who is here for you!</p>
-				</div>
-				<div id="content2">
-					Hello! My name is jude I am a local web developer located in albuquerque New Mexico who is here to assist you in your web design needs!
-
-				</div>
-				<div id="content3"> <!-- content3 -->
-					<h3>Services Provided</h3>
-					<ul class="list">
-						<li>Web development</li>
-						<li>Styling</li>
-						<li>Businesses sites</li>
-						<li>Personal sites</li>
-						<li>Professional sites</li>
-					</ul>
-				</div>
-			</div><!-- #content -->
-
-			<nav class="navbar-navbar-default">
+		<footer id="rock">
+			<nav class="navbar">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="#">Check Me Out!</a>
@@ -69,17 +52,7 @@
 					</ul>
 				</div>
 			</nav>
-
-
-			<div id="footer">
-				<div id="footer-content">
-					<p>
-						Phone: (505) 600-9407 or email: Chavezjude7@gmail.com
-					</p>
-				</div>
-			</div><!-- #footer -->
-
-		</div><!-- #wrapper -->
+		</footer>
 
 	</body>
 

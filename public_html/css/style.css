@@ -1,77 +1,21 @@
-/**
- * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
- *
- * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
- * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
- *
- * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
- */
-html,
-body {
-	margin:0;
-	padding:0;
-	height:100%;
-}
-#wrapper {
-	min-height:100%;
-	position:relative;
-}
-#header {
-	background: linear-gradient(orange, darkorange);
-	padding:10px;
-	height: 150px;
-}
-#content {
-	padding-bottom:100px; /* Height of the footer element */
-	background: linear-gradient(lightcyan, orange);
-	padding-top: 40px;
-}
-#footer {
-	background:lightblue;
-	width:100%;
-	height:60px;
-	position:relative;
-	bottom:0;
-	left:0;
-	text-align: center;
+
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
-#footer p {
-	margin: 0;
-	padding: 10px;
-}
-
-#body {
-	padding: 10px;
-	padding-bottom: 60px; /* height of footer */
-}
-
-#head1 {
-	font-family: 'Press Start 2p', cursive;
-	text-align: center;
-	font-size: 120px;
-	color: lightblue;
-	text-shadow: 2px 2px aliceblue;
-}
-
-#content1 {
-	text-align: left;
-	font-family: Arial Unicode MS;
-	font-size: large;
-}
-
-#content2 {
-	text-align: left;
-	font-family: Arial Unicode MS;
-	font-size: large;
-}
-
-#content3 {
-	text-align: left;
-}
-
-.list {
-	text-align: left;
+.sfooter-content {
+	flex: 1 0 auto;
 }
 
 #photo {
@@ -86,23 +30,62 @@ body {
 
 }
 
-#footer-content {
-	font-size: large;
-	text-shadow: 1px 1px white;
-}
-
-.navbar-navbar-default {
-	padding-bottom: 0px;
-	background-color: aliceblue;
-}
 
 .jumbotron {
 	font-family: 'Press Start 2p', cursive;
-	color: lightblue;
+	color: 424242;
+	margin: 0px;
 	text-shadow: 2px 2px aliceblue;
-	background: linear-gradient(orange, darkorange);
+	background: url("https://img2.minebook.me/gallery/48061_20120719_220423.png") center center;
+	min-height: 500px;
+}
+
+#grass {
+	padding-bottom: 64px;
+	background-image: url("../images/grass.png");
+	background-repeat: repeat repeat;
+
 
 }
 
+#dirt {
+	background-image: url("../images/dirt.jpg");
+	background-repeat: repeat repeat;
+	height: 400px;
+}
 
+
+body {
+	background-image: url("../images/dirt.jpg");
+}
+
+footer#rock {
+	background: url("../images/bedrock.png");
+	padding: 10px 0;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 45px;
+	font-family: 'Press Start 2p', cursive;
+	text-shadow: 4px 4px 2px black;
+	color: #D8D8D8;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: 'Press Start 2p' , cursive;
+	text-shadow: 4px 4px 2px black;
+	color: #D8D8D8;
+}
+
+#maincontent {
+	font-family: VT323;
+	font-size: 40px;
+	text-shadow: 4px 4px 2px black;
+	color: #D8D8D8;
+}
 
