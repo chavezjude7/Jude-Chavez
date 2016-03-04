@@ -30,18 +30,27 @@
 			</div>
 			<div class="dirt">
 				<div class="container-fluid">
-					<h2>About Me</h2>
+					<h2>Shalom!</h2>
 					<h3>I'm a webdeveloping nurse</h3>
 					<p id="maincontent">
 						<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
 						You have to dig deep to find the diamonds. I turn complex problems into beautiful solutions. I mine code so you don't have to.
 					</p>
+					<p id="maincontent">
+						Skills:
+					</p>
+					<img id="photo" src="images/lang.png" alt="picture of my skills" >
+					<img id="angular" src="images/angular.png" alt="picture of my skills" >
+
+
+
+
 
 					<!--<div class="twitter-window">
 						<a class="twitter-timeline" href="https://twitter.com/JudeicusMaximus" data-widget-id="705497413117587456">Tweets by @JudeicusMaximus</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 					</div> -->
 
-					<form action="../php-libs/phpMailer.php" method="post" enctype="multipart/form-data">
+					<form action="php-libs/phpMailer.php" method="post" enctype="multipart/form-data">
 						<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
 						<div class="form-group">
 							<label for="name">Your name:</label>
@@ -59,7 +68,7 @@
 							<label for="message">Your message:</label>
 							<textarea name="message" id="message" required> </textarea>
 						</div>
-						<div class="form-group">
+						<div class="submit">
 							<input type="submit" value="Send Message!">
 						</div>
 					</form>
