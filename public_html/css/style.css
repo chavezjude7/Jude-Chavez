@@ -73,6 +73,7 @@ h2 {
 	font-family: 'Press Start 2p', cursive;
 	text-shadow: 4px 4px 2px black;
 	color: #D8D8D8;
+
 }
 
 h3 {
@@ -80,6 +81,7 @@ h3 {
 	font-family: 'Press Start 2p' , cursive;
 	text-shadow: 4px 4px 2px black;
 	color: #D8D8D8;
+
 }
 
 #maincontent {
@@ -87,5 +89,69 @@ h3 {
 	font-size: 40px;
 	text-shadow: 4px 4px 2px black;
 	color: #D8D8D8;
+
 }
 
+/* .social-icons > li > a > i {
+}*/
+
+.twitter {
+	color: #58FAF4;
+	font-size: 60px;
+}
+
+.facebook {
+	color: #58ACFA;
+	font-size: 60px;
+}
+
+.linkedin {
+	color: #5882FA;
+	font-size: 60px;
+}
+
+.soundcloud {
+	color: orange;
+	font-size: 60px;
+}
+
+.youtube {
+	color: red;
+	font-size: 60px;
+}
+
+.instagram {
+	color: #F7BE81;
+	font-size: 60px;
+}
+
+.github {
+	color: #E6E6E6;
+	font-size: 60px;
+}
+
+.tumblr {
+	color: #5858FA;
+	font-size: 60px;
+}
+
+.google {
+	color: red;
+	font-size: 60px;
+}
+
+.form-group {
+	text-align: left;
+}
+
+#name {
+	height: 40px;
+	width: 200px;
+}
+
+label {
+	font-size: 40px;
+	font-family: VT323;
+	color: #D8D8D8;
+	text-shadow: 4px 4px 2px black;
+}
