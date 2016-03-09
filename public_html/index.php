@@ -50,52 +50,78 @@
 						<a class="twitter-timeline" href="https://twitter.com/JudeicusMaximus" data-widget-id="705497413117587456">Tweets by @JudeicusMaximus</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 					</div> -->
 
-					<form action="php-libs/phpMailer.php" method="post" enctype="multipart/form-data">
-						<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+
+					<form class="form-horizontal" action="php-lib/phpMailer.php">
 						<div class="form-group">
-							<label for="name">Your name:</label>
-							<input type="text" name="name"  id="name" required>
+							<label class="control-label col-xs-2" for="name">Name</label>
+							<div class="col-xs-10">
+								<input type="text" class="form-control" name="name" id="name" required>
+							</div>
 						</div>
 						<div class="form-group">
-							<label for="email">Your email:</label>
-							<input type="email" name="email"  id="email" required>
+							<label class="control-label col-xs-2" for="email">Email</label>
+							<div class="col-xs-10">
+								<input type="email" class="form-control" name="email" id="email"
+										 required>
+							</div>
 						</div>
 						<div class="form-group">
-							<label for="Subject">Subject:</label>
-							<input type="text" name="subject"  id="subject" required>
+							<label class="control-label col-xs-2" for="Subject">Subject</label>
+							<div class="col-xs-10">
+								<input type="text" class="form-control" name="subject" id="subject"
+										 placeholder="So I know what we're talking about" required>
+							</div>
 						</div>
 						<div class="form-group">
-							<label for="message">Your message:</label>
-							<textarea name="message" id="message" required> </textarea>
+							<label class="control-label col-xs-2">Message</label>
+							<div class="col-xs-10">
+								<textarea id="message" class="form-control" rows="3" placeholder="Let's get this conversation started!" required></textarea>
+							</div>
 						</div>
-						<div class="submit">
-							<input type="submit" value="Send Message!">
+						<div class="form-group">
+							<div>
+								<button type="submit" class="btn btn-primary center-block"><i
+										class="fa fa-paper-plane"></i> Submit
+								</button>
+							</div>
 						</div>
 					</form>
+
 
 				</div>
 			</div> <!--dirt-->
 		</div><!--/.sfooter-content-->
 
 		<footer id="rock">
-			<nav class="navbar">
-				<div class="container-fluid">
-					<!--<div class="navbar-header">
-						<a class="navbar-brand" href="#">Check Me Out!</a>
-					</div>-->
-					<ul class="nav navbar-nav social-icons">
-						<li><a href="https://twitter.com/JudeicusMaximus"><i class="fa fa-twitter-square twitter"></i></a></li>
-						<li><a href="https://www.facebook.com/judeicusMaximus"><i class="fa fa-facebook-square facebook"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/jude-chavez-87a519114"><i class="fa fa-linkedin-square linkedin"></i></a></li>
-						<li><a href="https://soundcloud.com/judeicusmaximus"><i class="fa fa-soundcloud soundcloud"></i></a></li>
-						<li><a href="https://www.youtube.com/channel/UCBuoSq2gvaHA5IYaL2FVZMA"><i class="fa fa-youtube-play youtube"></i></a></li>
-						<li><a href="https://www.instagram.com/judeicusmaximus/"><i class="fa fa-instagram instagram"></i></a></li>
-						<li><a href="https://github.com/chavezjude7"><i class="fa fa-github-square github"></i></a></li>
-						<li><a href="http://judeicusmaximus.tumblr.com"><i class="fa fa-tumblr-square tumblr"></i></a></li>
-						<li><a href="https://plus.google.com/u/0/115568638547980407676/posts"><i class="fa fa-google-plus-square google"></i></a></li>
-					</ul>
-				</div>
-			</nav>
+
+
+
+			<div class="row text-center">
+				<a href="https://www.linkedin.com/in/michaelkemm" target="_blank"
+					class="btn btn-social-icon btn-linkedin">
+					<span class="fa fa-linkedin"></span>
+				</a>
+
+				<a href="https://twitter.com/michaelkemm" target="_blank" class="btn btn-social-icon btn-twitter">
+					<span class="fa fa-twitter"></span>
+				</a>
+
+				<a href="https://github.com/michaelkemm" target="_blank" class="btn btn-social-icon btn-github">
+					<span class="fa fa-github"></span>
+				</a>
+
+				<a href="https://soundcloud.com/judeicusmaximus" target="_blank" class="btn btn-social-icon btn-soundcloud">
+					<span class="fa fa-soundcloud"></span>
+				</a>
+
+				<a href="https://www.facebook.com/judeicusMaximus" target="_blank" class="btn btn-social-icon btn-facebook">
+					<span class="fa fa-facebook"></span>
+				</a>
+
+
+			</div>
+
+
 		</footer>
 
 	</body>
