@@ -97,16 +97,17 @@
 
 
 			<div class="row text-center">
-				<a href="https://www.linkedin.com/in/michaelkemm" target="_blank"
+
+				<a href="https://www.linkedin.com/in/jude-chavez-87a519114" target="_blank"
 					class="btn btn-social-icon btn-linkedin">
 					<span class="fa fa-linkedin"></span>
 				</a>
 
-				<a href="https://twitter.com/michaelkemm" target="_blank" class="btn btn-social-icon btn-twitter">
+				<a href="https://twitter.com/JudeicusMaximus" target="_blank" class="btn btn-social-icon btn-twitter">
 					<span class="fa fa-twitter"></span>
 				</a>
 
-				<a href="https://github.com/michaelkemm" target="_blank" class="btn btn-social-icon btn-github">
+				<a href="https://github.com/chavezjude7" target="_blank" class="btn btn-social-icon btn-github">
 					<span class="fa fa-github"></span>
 				</a>
 
@@ -118,7 +119,17 @@
 					<span class="fa fa-facebook"></span>
 				</a>
 
+				<a href="https://www.youtube.com/channel/UCBuoSq2gvaHA5IYaL2FVZMA" target="_blank" class="btn btn-social-icon btn-youtube">
+					<span class="fa fa-youtube"></span>
+				</a>
 
+				<a href="https://www.instagram.com/judeicusmaximus/" target="_blank" class="btn btn-social-icon btn-instagram">
+					<span class="fa fa-instagram"></span>
+				</a>
+
+				<a href="http://judeicusmaximus.tumblr.com" target="_blank" class="btn btn-social-icon btn-tumblr">
+					<span class="fa fa-tumblr"></span>
+				</a>
 			</div>
 
 

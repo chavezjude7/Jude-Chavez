@@ -101,58 +101,39 @@ h3 {
 	text-shadow: 4px 4px 2px black;
 	color: #D8D8D8;
 	text-align: center;
-
 }
 
-.social-icons > li > a > i {
-	margin-left: auto;
-	margin-right: auto;
+.btn-linkedin {
+	font-size: 60px;
+	color: steelblue;
 }
 
-.twitter {
-	color: #58FAF4;
+.btn-twitter {
+	font-size: 60px;
+	color: skyblue;
+}
+
+.btn-tumblr {
 	font-size: 60px;
 }
 
-.facebook {
-	color: #58ACFA;
+.btn-soundcloud {
 	font-size: 60px;
 }
 
-.linkedin {
-	color: #5882FA;
+.btn-github {
 	font-size: 60px;
 }
 
-.soundcloud {
-	color: orange;
+.btn-youtube {
 	font-size: 60px;
 }
 
-.youtube {
-	color: red;
+.btn-instagram {
 	font-size: 60px;
 }
 
-.instagram {
-	color: #F7BE81;
-	font-size: 60px;
-}
 
-.github {
-	color: #E6E6E6;
-	font-size: 60px;
-}
-
-.tumblr {
-	color: #5858FA;
-	font-size: 60px;
-}
-
-.google {
-	color: red;
-	font-size: 60px;
-}
 
 
 label {
