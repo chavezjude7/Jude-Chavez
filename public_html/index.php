@@ -41,15 +41,23 @@
 					<p id="maincontent">
 						You have to dig deep to find the diamonds. I turn complex problems into beautiful solutions. I mine code so you don't have to.
 					</p>
+
+					<h3>About Me</h3>
+					<h4>Liscence of Practical Nursing</h4>
 					<p id="maincontent">
-						Skills:
+						Practical Nurse Certified in: IV procudures, PICC line care and maintenance, AHA AED/CPR/BLS.
 					</p>
+					<h4>Full Stack Web Developer</h4>
+					<p id="maincontent">
+						Web Developer proficient in front-end and back-end web development. Java, HTML5, CSS3, JavaScript, Angular, and MySQL
+					</p>
+
 					<img id="photo" src="images/lang.png" alt="picture of my skills" >
 					<img id="angular" src="images/angular.png" alt="picture of my skills" >
 
-					<p id="maincontent">
+					<h3>
 						Talk to me!
-					</p>
+					</h3>
 				</div>
 
 					<!--<div class="twitter-window">
@@ -95,14 +103,14 @@
 								</form>
 							<div id="output-area"></div>
 						</div>
-
-
-
-
-
+						<img id="Diamond" src="images/Diamond.png" alt="picture of diamonds" >
+						<p id="maincontent">
+							Let's find some diamonds!
+						</p>
 				</div>
 			</div> <!--dirt-->
 		</div><!--/.sfooter-content-->
+
 
 		<footer id="rock">
 			<div class="container-fluid">
@@ -145,5 +153,4 @@
 		</footer>
 
 	</body>
-
 </html>
